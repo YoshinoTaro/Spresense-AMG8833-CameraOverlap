@@ -1,3 +1,9 @@
+/*
+ * Original implementation done by hkoffer
+ * https://github.com/hkoffer/M5Stack-Thermal-Camera-/blob/master/interpolation.cpp
+ */
+
+
 #include <Arduino.h>
 
 float get_point(float *p, uint8_t rows, uint8_t cols, int8_t x, int8_t y);
